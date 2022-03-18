@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+
+}
+.table-container {
+  width: 100%;
+  height: 100vh;
+  padding-top: 50px;
+  background-color: rgb(147, 180, 240);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: rgb(252, 241, 221);
+  border-radius: 20px;
+  overflow: hidden;
+}
+thead {
+  background-color: darkblue;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+}
+th,
+td {
+  padding-left: 15px;
+  height: 30px;
+}
+tbody tr:nth-child(even) {
+  background-color: wheat;
+}
